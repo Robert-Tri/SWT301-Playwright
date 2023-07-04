@@ -46,8 +46,11 @@ public class TestLogin {
         page.click("//button[contains(text(),'Đăng Nhập')]");
         String currentUrl = page.url();  
         Assertions.assertEquals("http://localhost:3030/SWP391-SE1743/MainController", currentUrl);    
-        page.click("//button[contains(text(),'Đăng Nhập')]");
-                
+        page.hover("//a[@class='dropdown-toggle nav-link user-link']");
+        page.waitForSelector("//button[contains(text(),'Tài Khoản')]");
+        page.click("//button[contains(text(),'Tài Khoản')]");
+        String currentContent = page.textContent(".user-name.m-t-0.mb-0"); 
+        Assertions.assertEquals("User Test", currentContent);
     }
     
 }
