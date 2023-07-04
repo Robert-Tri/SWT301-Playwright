@@ -37,10 +37,17 @@ public class TestLogin {
 
     @Test
     public void testPageTitle() {
-        page.navigate("http://localhost:8080/SWP391-SE1743");
+        page.navigate("http://localhost:3030/SWP391-SE1743/login.jsp");
         String pageTitle = page.title();
         Assertions.assertEquals("DentCare", pageTitle);
-        
+        // Ghi lại các hành động đăng nhập
+        page.fill("#user", "usertestdcbs@gmail.com");
+        page.fill("#pass", "User123456");
+        page.click("//button[contains(text(),'Đăng Nhập')]");
+        String currentUrl = page.url();  
+        Assertions.assertEquals("http://localhost:3030/SWP391-SE1743/MainController", currentUrl);    
+        page.click("//button[contains(text(),'Đăng Nhập')]");
+                
     }
     
 }
