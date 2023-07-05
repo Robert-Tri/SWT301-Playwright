@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.dentcare.test.TestLogin" time="32.554" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.dentcare.test.TestLogin" time="34.695" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\test-classes;D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\playwright\1.35.1\playwright-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver\1.35.1\driver-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver-bundle\1.35.1\driver-bundle-1.35.1.jar;"/>
+    <property name="java.class.path" value="D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\test-classes;D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\playwright\1.35.1\playwright-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver\1.35.1\driver-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver-bundle\1.35.1\driver-bundle-1.35.1.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire6408544902799970738\surefirebooter-20230705202905254_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire6408544902799970738 2023-07-05T20-29-05_069-jvmRun1 surefire-20230705202905254_1tmp surefire_0-20230705202905254_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire2027111217885981323\surefirebooter-20230705203250805_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire2027111217885981323 2023-07-05T20-32-50_637-jvmRun1 surefire-20230705203250805_1tmp surefire_0-20230705203250805_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.dentcare.test.TestLogin"/>
-    <property name="surefire.test.class.path" value="D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\test-classes;D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\playwright\1.35.1\playwright-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver\1.35.1\driver-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver-bundle\1.35.1\driver-bundle-1.35.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\test-classes;D:\Semester 5\SWT301\test playwright\SWT301-Playwright\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\playwright\1.35.1\playwright-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver\1.35.1\driver-1.35.1.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\playwright\driver-bundle\1.35.1\driver-bundle-1.35.1.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ADMIN"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire6408544902799970738\surefirebooter-20230705202905254_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire2027111217885981323\surefirebooter-20230705203250805_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -60,8 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testLogin_DDT(String, String)[1]" classname="com.dentcare.test.TestLogin" time="7.926"/>
-  <testcase name="testLogin_DDT(String, String)[2]" classname="com.dentcare.test.TestLogin" time="6.816"/>
-  <testcase name="testLogin_DDT(String, String)[3]" classname="com.dentcare.test.TestLogin" time="6.849"/>
-  <testcase name="testPageTitle" classname="com.dentcare.test.TestLogin" time="1.783"/>
+  <testcase name="testLogin_DDT(String, String)[1]" classname="com.dentcare.test.TestLogin" time="7.907"/>
+  <testcase name="testLogin_DDT(String, String)[2]" classname="com.dentcare.test.TestLogin" time="6.834"/>
+  <testcase name="testLogin_DDT(String, String)[3]" classname="com.dentcare.test.TestLogin" time="6.843"/>
+  <testcase name="testPageTitle" classname="com.dentcare.test.TestLogin" time="3.886"/>
 </testsuite>

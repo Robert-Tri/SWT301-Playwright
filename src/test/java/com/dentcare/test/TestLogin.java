@@ -7,7 +7,6 @@ package com.dentcare.test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -46,6 +45,7 @@ public class TestLogin {
         page.fill("#user", "usertestdcbs@gmail.com");
         page.fill("#pass", "User123456");
         page.click("//button[contains(text(),'Đăng Nhập')]");
+        page.waitForTimeout(3000);
         String currentUrl = page.url();  
         Assertions.assertEquals("http://localhost:8080/SWP391-SE1743/MainController", currentUrl);    
         page.hover("//a[@class='dropdown-toggle nav-link user-link']");
