@@ -42,8 +42,8 @@ public class TestLogin {
         String pageTitle = page.title();
         Assertions.assertEquals("DentCare", pageTitle);
         // Ghi lại các hành động đăng nhập
-        page.fill("#user", "usertestdcbs@gmail.com");
-        page.fill("#pass", "User123456");
+        page.fill("[name='accountName']", "usertestdcbs@gmail.com");
+        page.fill("[id='pass']", "User123456");
         page.click("//button[contains(text(),'Đăng Nhập')]");
         page.waitForTimeout(5000);
         String currentUrl = page.url();  
