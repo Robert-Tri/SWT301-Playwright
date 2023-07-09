@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.dentcare.test.TestLogin
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 19.31 s <<< FAILURE! -- in com.dentcare.test.TestLogin
 com.dentcare.test.TestLogin.testLogin_DDT(String, String)[1] -- Time elapsed: 14.18 s <<< ERROR!
 com.microsoft.playwright.PlaywrightException: 
@@ -698,3 +699,10 @@ Caused by: com.microsoft.playwright.impl.DriverException: Error {
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)
 	... 68 more
 
+=======
+<<<<<<< HEAD
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.81 s -- in com.dentcare.test.TestLogin
+=======
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.49 s -- in com.dentcare.test.TestLogin
+>>>>>>> 455340863074753da9a7e6f1e52503b21e4e20c1
+>>>>>>> 61c5c30b11544695ec3b0e761595a855bffb8ce7

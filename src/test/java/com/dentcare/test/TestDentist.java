@@ -86,3 +86,4 @@ public class TestDentist {
         Assertions.assertEquals(search, currentSearch);
     }
 }
+
