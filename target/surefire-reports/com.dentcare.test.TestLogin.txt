@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.dentcare.test.TestLogin
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.81 s -- in com.dentcare.test.TestLogin
+=======
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.49 s -- in com.dentcare.test.TestLogin
+>>>>>>> 455340863074753da9a7e6f1e52503b21e4e20c1
